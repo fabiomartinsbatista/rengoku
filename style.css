@@ -1,0 +1,198 @@
+@charset "UTF8";
+@import url('https://www.dafont.com/pt/eagle-dark.font?text=hengoku');
+
+@font-face {
+    font-family:'EAGLE DARK';
+    src: url("fontes/EAGLE\ DARK.ttf") format('TrueType');
+    font-weight: normal;
+}
+
+:root {
+    --cor0:red;
+    --cor1:#d24e01;
+    --cor2:#dc6601;
+    --cor3:#e27602;
+    --cor4:yellow;
+
+    --fonte-padrao: Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destaque:'EAGLE DARK';
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+     background-image: linear-gradient(to bottom,var(--cor0),var(--cor4));
+    font-family: var(--fonte-padrao);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align:justify;
+    text-indent: 30px;
+    line-height :2em;
+    font-size: 1em;
+}
+
+main {
+    min-width:300px;
+    max-width:  1000px;
+    margin:auto;
+    margin-bottom:30px;
+    padding:20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2 {
+    font-family: var(--fonte-padrao);
+    color:var(--cor4);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right,var(--cor0),transparent);
+    text-indent: 8px;
+}
+
+main strong {
+    color:var(--cor0);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--cor4);
+    color:red;
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
+main img {
+    width:100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+
+a.externo::after {
+    content:'\00A0\1F517';
+}
+
+header {
+    background-image:linear-gradient(to bottom,var(--cor4),var(--cor0));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1 {
+    color: white ;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 7em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: yellow;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+nav {
+    background-color: var(--cor0);
+    padding: 10px;
+    box-shadow:0px 7px 7px rgba(0,0,0,0,192);
+    text-align: center;
+}
+
+nav > a {
+    color: var(--cor4);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:  5px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+div.video {
+    display: flex;
+    justify-content:center;
+}
+
+footer p {
+    background-color: var(--cor0);
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
