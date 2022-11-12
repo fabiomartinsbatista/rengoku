@@ -1,2 +1,0 @@
-# rengoku
- SITE RENGOKU
